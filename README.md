@@ -33,7 +33,7 @@ variable (destructively and non-destructively) in this lab.
 Once you've initialized the `employee` Object, you'll need to create the
 following four functions:
 
-- `updateEmployeeWithKeyAndValue()`: this function should take in three
+- `updateEmployeeWithKeyAndVaelue()`: this function should take in three
   arguments: a `employee` `Object`, a `key` and a `value`. This function should
   not mutate the `employee`; it should return a _new_ `Object` that has an
   updated `value` for the `key` passed in.
@@ -47,7 +47,7 @@ following four functions:
   key-value pair.
 - `destructivelyDeleteFromEmployeeByKey()`: this function should work the same
   as `deleteFromEmployeeByKey()` but it _should_ mutate the `employee` `Object`.
-  
+
 As you work on your functions, be sure to think about when to use dot notation
 vs. bracket notation.
 
